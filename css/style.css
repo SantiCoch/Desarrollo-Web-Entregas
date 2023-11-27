@@ -136,6 +136,9 @@ body {
   list-style: none;
   width: 100%;
 }
+
+
+
 nav.navegacion {
   width: 100%;
   height: 90px;
@@ -164,6 +167,8 @@ nav.navegacion {
   margin-left: 10px;
   padding: 10px;
 }
+
+
 
 iframe {
   max-width: 100%; /* Asegura que el iframe no sea más ancho que el contenedor */
@@ -214,6 +219,11 @@ iframe {
   color: #5070da; 
   transition: background-color 0.3;
   
+}
+
+.nav-color {
+  background-color: rgb(126, 52, 141);
+
 }
 
 
