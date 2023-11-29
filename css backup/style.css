@@ -1,10 +1,11 @@
  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
 
 .stl-body{
-  background-color: rgb(34, 9, 58);
+  background: linear-gradient(to right, rgb(8, 153, 153), rgb(0, 0, 0), rgb(193, 55, 248));
+
 }
 
-/* Nav bar CSS */
+
 .parrafo {
   font-family: "Teko"; sans-serif;
 }
@@ -86,7 +87,8 @@ iframe {
 }
 
 body {
-  background-color: rgb(34, 9, 58);
+  background: linear-gradient(to right, rgb(8, 153, 153), rgb(0, 0, 0), rgb(193, 55, 248));
+
 }
 
 #fondo-productos {
@@ -142,7 +144,7 @@ body {
 nav.navegacion {
   width: 100%;
   height: 90px;
-  background-color: rgb(126, 52, 141);
+  background: linear-gradient(to right, rgb(160, 42, 207), rgb(238, 21, 191), aqua);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -171,7 +173,7 @@ nav.navegacion {
 
 
 iframe {
-  max-width: 100%; /* Asegura que el iframe no sea más ancho que el contenedor */
+  max-width: 100%;
 }
 
 
@@ -222,7 +224,8 @@ iframe {
 }
 
 .nav-color {
-  background-color: rgb(126, 52, 141);
+  background: linear-gradient(to right, rgb(160, 42, 207), rgb(238, 21, 191), aqua);
+
 
 }
 
@@ -269,10 +272,10 @@ iframe {
 .flex-container {
   display: flex;
   justify-content: space-between;
-  flex-direction: row; /* Cambia la dirección principal a columna */
-  align-items: center; /* Centra los elementos verticalmente */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  height: 200px; /* Altura del contenedor (puedes ajustarla según tus necesidades) */
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+  height: 200px; 
   background-color: hsla(182, 69%, 37%, 0.596);
 }
 
@@ -342,6 +345,44 @@ iframe {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.aparecer {
+  opacity: 0;
+  animation: aparecer 1s ease-in-out forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 2;
+  }
+}
+
+.deslizar {
+  transform: translateY(100px);
+  animation: deslizar 1s ease-in-out forwards;
+}
+
+@keyframes deslizar {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes cambioColor {
+  0% {
+    background-color: rgb(195, 0, 255);
+  }
+  50% {
+    background-color: rgb(190, 13, 137);
+  }
+  100% {
+    background-color: rgb(195, 0, 255);
+  }
+}
+
+.animacion-color {
+  animation: cambioColor 2s infinite;
 }
 
 
