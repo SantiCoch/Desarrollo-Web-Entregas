@@ -17,6 +17,10 @@
   font-size: 25px;
 }
 
+.h2-texto {
+  color: chocolate;
+}
+
 h1
 {color: purple;
 }
@@ -53,7 +57,7 @@ h3 {
 }
 
 #icon-redes img {
-  width: 50px; 
+  width: 70px; 
   height: 50px;
 }
 
@@ -87,7 +91,7 @@ iframe {
 }
 
 body {
-  background: linear-gradient(to right, rgb(8, 153, 153), rgb(0, 0, 0), rgb(193, 55, 248));
+  background: linear-gnt(to right, rgb(8, 153, 153), rgb(0, 0, 0), rgb(193, 55, 248));
 
 }
 
@@ -118,9 +122,10 @@ body {
     margin-left: 30px;
 }
 
-#logo-imagen{
-  width: 75px;
+.logo-nav{
+  width: 90px;
   height: 75px;
+  margin-right: 100px;
 }
 
 .navegacion {
@@ -371,13 +376,13 @@ img {
 
 @keyframes cambioColor {
   0% {
-    background-color: rgb(195, 0, 255);
+    background-color: rgb(5, 74, 121);
   }
   50% {
-    background-color: rgb(190, 13, 137);
+    background-color: rgb(21, 125, 167);
   }
   100% {
-    background-color: rgb(195, 0, 255);
+    background-color: rgb(5, 74, 121)
   }
 }
 
