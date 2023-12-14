@@ -5,6 +5,15 @@
 
 }
 
+.parrafo-cards {
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Teko', sans-serif;
+}
+
+h5 {
+  font-family: 'Nova Square', sans-serif;
+}
 
 .parrafo {
   font-family: "Teko"; sans-serif;
@@ -12,6 +21,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Teko:wght@500&display=swap');
 
+#body-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://png.pngtree.com/background/20230519/original/pngtree-display-of-old-games-and-consoles-picture-image_2652598.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; 
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+}
+
+#body-img2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8bbcad8e-79dd-41ee-b6a0-a19bdaf30b00/debejt5-7b17e0ba-bf71-4c1f-a613-d4638ac45d05.png/v1/fill/w_1192,h_670,q_70,strp/sony_playstation_symbols_4k_wallpaper_by_arturscc_debejt5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzhiYmNhZDhlLTc5ZGQtNDFlZS1iNmEwLWExOWJkYWYzMGIwMFwvZGViZWp0NS03YjE3ZTBiYS1iZjcxLTRjMWYtYTYxMy1kNDYzOGFjNDVkMDUucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.802HHFSieOQ-jKA2eQMk_GiJ0mKvm_6fvqw3nq3GjYM);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+}
+
+#body-img3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cloudfront-us-east-1.images.arcpublishing.com/copesa/JRVRFF65PNAJ5PU4JCRHYFJRP4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+.footer-align {
+  margin-top: 375px;
+}
+
+.parrafo-gap {
+  margin-left: 50px;
+}
 
 .texto-grande {
   font-size: 25px;
@@ -19,27 +65,35 @@
 
 .h2-texto {
   color: chocolate;
+  font-family: 'Nova Square', sans-serif;
+
 }
 
-h1
-{color: purple;
+.h1-font {
+  font-family: 'Nova Square', sans-serif;
+  color: purple
 }
+
+
 
 h2 {
   color: rgb(184, 28, 54)
+ 
 }
 
 h3 {
   color: aqua;
 }
 
+
+.footer-ancho {
+  width: 100%;
+}
+
 .titulo {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.parrafo {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
 
 .nav-item {
   font-family: "Oswald", sans-serif;
@@ -47,6 +101,11 @@ h3 {
 
 .color-fuente
  {color: rgb(31, 180, 143);
+}
+
+.h2-color {
+  color: #d937ee;
+  font-family: 'Nova Square', sans-serif;
 
 }
 
@@ -391,3 +450,41 @@ img {
 }
 
 
+.custom-card {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+.custom-card img {
+  border: 2px solid #8b3b8b;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.custom-card .card-body {
+  background-color: rgb(66, 224, 245);
+}
+
+.custom-card .card-title {
+  color: rgb(181, 18, 196);
+}
+
+.custom-card .card-text {
+  color: #15069e;
+  font-size: 19px;
+}
+
+.card-img-top {
+  background-color: transparent; 
+  background-color: rgb(18, 2, 32);
+}
+
+.card-img-inicio {
+  background-color: transparent; 
+  background-color: rgb(14, 185, 99);
+}
